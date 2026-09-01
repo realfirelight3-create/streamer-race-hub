@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { Footer } from "../components/Footer";
 import heroImage from "../assets/hero-racing.jpg";
 
 export const Route = createFileRoute("/")({
@@ -173,6 +174,9 @@ function HomePage() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </main>
   );
 }
+
